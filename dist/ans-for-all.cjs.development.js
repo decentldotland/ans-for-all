@@ -393,7 +393,7 @@ var connector = {
 	logout: "Logout",
 	swal: {
 		title: "Install ArConnect to continue",
-		text: "Permablog uses ArConnect to make it easier to authenticate and send transactions for questions and answers",
+		text: "This Dapp uses ArConnect to make it easier to broadcast Arweave transactions",
 		footer: "Download ArConnect here"
 	}
 };
@@ -437,7 +437,7 @@ var Default_Badge = function Default_Badge() {
   }), " ", connector$1.login));
 };
 
-var requiredPermissions = ['ACCESS_ADDRESS', 'ACCESS_ALL_ADDRESSES', 'SIGNATURE', 'SIGN_TRANSACTION'];
+var requiredPermissions = ['ACCESS_ADDRESS', 'ACCESS_ALL_ADDRESSES', 'SIGNATURE', 'SIGN_TRANSACTION', 'ACCESS_PUBLIC_KEY'];
 var ANSContext = /*#__PURE__*/React.createContext({});
 function useAns() {
   var UseANSContext = React.useContext(ANSContext);

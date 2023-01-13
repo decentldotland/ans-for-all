@@ -9,7 +9,7 @@ import { PermissionType } from 'arconnect';
 
 import * as lang from './en.json';
 
-const requiredPermissions: PermissionType[] = ['ACCESS_ADDRESS', 'ACCESS_ALL_ADDRESSES', 'SIGNATURE', 'SIGN_TRANSACTION']
+const requiredPermissions: PermissionType[] = ['ACCESS_ADDRESS', 'ACCESS_ALL_ADDRESSES', 'SIGNATURE', 'SIGN_TRANSACTION', 'ACCESS_PUBLIC_KEY']
 
 type Props = {
     children: any;
