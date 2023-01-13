@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react'
 import Swal from 'sweetalert2'
 import { useTranslation } from 'react-i18next'
 
-const requiredPermissions = ['ACCESS_ADDRESS', 'ACCESS_ALL_ADDRESSES', 'SIGNATURE', 'SIGN_TRANSACTION']
+const requiredPermissions = ['ACCESS_ADDRESS', 'ACCESS_ALL_ADDRESSES', 'SIGNATURE', 'SIGN_TRANSACTION', 'ACCESS_PUBLIC_KEY']
 
 export default function useConenctor() {
 
