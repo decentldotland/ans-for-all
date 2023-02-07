@@ -11,7 +11,7 @@
 Add it to your project:
 
 ```console
-yarn add ans-for-all
+yarn add decentldotland/ans-for-all
 ```
 
 ### How to use ans-for-all in your React app:
