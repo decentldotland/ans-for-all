@@ -1,4 +1,10 @@
 <p align="center">
+  <h2>
+    ANS-for-all has been deprecated in favor of react-arconnect! Check it out <a href="https://github.com/decentldotland/react-arconnect">here</a>.
+  </h2>
+</p>
+
+<p align="center">
   <a href="https://decent.land">
     <img src="./img/logo25.png" height="124">
   </a>
